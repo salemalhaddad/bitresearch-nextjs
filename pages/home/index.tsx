@@ -6,7 +6,7 @@ import { useEffect } from "react";
 import DownloadIcon from "../../assets/download_icon.svg";
 import ProfileIcon from "../../assets/profile_icon.svg";
 import Navbar from "../../components/Navbar";
-import { data } from "./data";
+import { data } from "../../components/data";
 
 const HomePage = () => {
   const { address } = useWeb3();

@@ -2,7 +2,7 @@ import { useWeb3 } from "@3rdweb/hooks";
 import { useRouter } from "next/router";
 import { useState, useEffect } from "react";
 import Navbar from "../../components/Navbar";
-import { users } from "./users";
+import { users } from "../../components/users";
 
 interface User {
   id: string;
